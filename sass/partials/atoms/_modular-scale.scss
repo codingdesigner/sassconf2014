@@ -1,0 +1,30 @@
+//////////////////////////////
+// Modular Scale Atoms
+//
+// The partial and folder structure for this atoms should be as follows:
+// _modular-scale.scss
+// modular-scale (folder)
+//   _extends.scss
+//   _mixins.scss
+//   _variables.scss
+//
+// Automatic Sass parsing is done through special comment blocks
+//  - Start styling block for base atoms: @{atoms}
+//  - End styling block for base atoms:   {atoms}@
+//
+//  - Start styling block for specific atoms aspect: @{atoms--aspect}
+//  - End styling block for specific atoms aspect:   {atoms--aspect}@
+//////////////////////////////
+
+@import "modular-scale/variables";
+@import "modular-scale/mixins";
+@import "modular-scale/extends";
+
+//////////////////////////////
+// @{modular-scale}
+// Styling for Modular Scale Atoms
+.modular-scale {
+
+}
+// {modular-scale}@
+//////////////////////////////

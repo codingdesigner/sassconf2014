@@ -1,0 +1,30 @@
+//////////////////////////////
+// Fonts Atoms
+//
+// The partial and folder structure for this atoms should be as follows:
+// _fonts.scss
+// fonts (folder)
+//   _extends.scss
+//   _mixins.scss
+//   _variables.scss
+//
+// Automatic Sass parsing is done through special comment blocks
+//  - Start styling block for base atoms: @{atoms}
+//  - End styling block for base atoms:   {atoms}@
+//
+//  - Start styling block for specific atoms aspect: @{atoms--aspect}
+//  - End styling block for specific atoms aspect:   {atoms--aspect}@
+//////////////////////////////
+
+@import "fonts/variables";
+@import "fonts/mixins";
+@import "fonts/extends";
+
+//////////////////////////////
+// @{fonts}
+// Styling for Fonts Atoms
+.fonts {
+
+}
+// {fonts}@
+//////////////////////////////

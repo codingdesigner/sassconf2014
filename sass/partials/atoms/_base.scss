@@ -1,0 +1,51 @@
+//////////////////////////////
+// Base Atoms
+//
+// The partial and folder structure for this atoms should be as follows:
+// _base.scss
+// base (folder)
+//   _extends.scss
+//   _mixins.scss
+//   _variables.scss
+//
+// Automatic Sass parsing is done through special comment blocks
+//  - Start styling block for base atoms: @{atoms}
+//  - End styling block for base atoms:   {atoms}@
+//
+//  - Start styling block for specific atoms aspect: @{atoms--aspect}
+//  - End styling block for specific atoms aspect:   {atoms--aspect}@
+//////////////////////////////
+
+@import "base/variables";
+@import "base/mixins";
+@import "base/extends";
+
+//////////////////////////////
+// @{base}
+// Styling for Base  Atoms
+.base {
+
+}
+// {base}@
+//////////////////////////////
+
+
+//////////////////////////////
+// @{base--text}
+// Text styling for Base Atoms
+.base--TEXT {
+
+}
+// {base--text}@
+//////////////////////////////
+
+
+//////////////////////////////
+// @{base--form}
+// Form styling for Base Atoms
+.base--FORM {
+
+}
+// {base--form}@
+//////////////////////////////
+

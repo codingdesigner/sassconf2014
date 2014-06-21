@@ -1,0 +1,4 @@
+# Variables that will be available for `atoms` patterns.
+# To use: {{atoms.variable}}
+atoms:
+  brand_colors: [green, red, blue]
